@@ -1,3 +1,3 @@
-# python-dash-demo
+# Python dash demo
 
 Just a testing repo for python dash stuff
