@@ -1,6 +1,5 @@
 # Import libraries and modules
 import numpy as np
-from numpy.core.fromnumeric import size
 import plotly.offline as pyo
 import plotly.graph_objs as go
 
