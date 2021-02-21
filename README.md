@@ -1,3 +1,2 @@
-# Python dash demo
+# Interactive Python dashboards with Plotly and Dash
 
-Just a testing repo for python dash stuff
