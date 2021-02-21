@@ -1,13 +1,14 @@
-# import libraries and modules
+# Import libraries and modules
 import numpy as np
 import plotly.offline as pyo
 import plotly.graph_objs as go
 
-# generate random data
+# Generate random data
 np.random.seed(42)
 random_x = np.random.randint(1, 101, 100)
 random_y = np.random.randint(1, 101, 100)
 
+# Build a plotly graph
 data = [
     go.Scatter(
         x = random_x,
@@ -32,4 +33,5 @@ fig = go.Figure(
     layout = layout
 )
 
-pyo.plot(fig, filename = "scatter.html")
+# Save the graph
+pyo.plot(fig, filename = "02_basic_scatter_layout.html")
