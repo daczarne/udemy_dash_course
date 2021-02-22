@@ -37,4 +37,4 @@ fig = go.Figure(
 )
 
 # Save the plot
-pyo.plot(fig, filename = "05_exercise_extra.html")
+pyo.plot(fig, filename = "05_barchart_exercise_extra.html")
