@@ -1,3 +1,5 @@
+*.html linguist-vendored
+
 *.Rmd linguist-detectable
 *.md linguist-detectable
 *.md linguist-documentation=false
