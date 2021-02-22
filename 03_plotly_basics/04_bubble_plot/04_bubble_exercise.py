@@ -38,4 +38,4 @@ fig = go.Figure(
 )
 
 # Save the plot
-pyo.plot(fig, filename = "04_exercise.html")
+pyo.plot(fig, filename = "04_bubble_exercise.html")
