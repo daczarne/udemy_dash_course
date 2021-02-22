@@ -24,7 +24,7 @@ data = [
   )
 ]
 
-# add a layout
+# Define the layout
 layout = go.Layout(
   title = "Abalone size"
 )
