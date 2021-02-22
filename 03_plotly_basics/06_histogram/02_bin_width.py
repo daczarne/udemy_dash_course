@@ -13,7 +13,7 @@ data = [
     xbins = dict(
       start = 0,
       end = 50,
-      size = 10
+      size = 2
     )
   )
 ]
