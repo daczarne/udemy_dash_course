@@ -1,28 +1,18 @@
 # Import libraries and modules
 import plotly.offline as pyo
-import plotly.graph_objs as go
-import pandas as pd
+import plotly.figure_factory as ff
+import numpy as np
 
-# Define data array
-df = pd.read_csv("mpg.csv", na_values = {'horsepower':'?'})
-
-# Create the traces
-data = [
-  go.Histogram(
-    x = df["mpg"]
-  )
-]
-
-# Define the layout
-layout = go.Layout(
-  title = "MPG"
-)
+# Generate random data
+x = np.random.randn(1000)
+hist_data = [x]
+group_labels = ["distplot"]
 
 # Build the figure
-fig = go.Figure(
-  data = data,
-  layout = layout
+fig = ff.create_distplot(
+  hist_data = hist_data,
+  group_labels = group_labels
 )
 
 # Save the plot
-pyo.plot(fig, filename = "01_hist_basics.html")
+pyo.plot(fig, filename = "01_dist_basics.html")
