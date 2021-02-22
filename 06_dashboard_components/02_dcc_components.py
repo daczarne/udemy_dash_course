@@ -6,8 +6,6 @@ import dash_core_components as dcc
 # Instanciate the app
 app = dash.Dash()
 
-# Define style
-
 # Define the layout
 app.layout = html.Div([
   html.Label("Dropdown"),
