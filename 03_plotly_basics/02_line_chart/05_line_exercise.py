@@ -56,4 +56,4 @@ fig = go.Figure(
 )
 
 # Create the plot
-pyo.plot(fig, filename = "05_exercise.html")
+pyo.plot(fig, filename = "05_line_exercise.html")
