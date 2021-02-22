@@ -42,4 +42,4 @@ fig = go.Figure(
 )
 
 # Save the plot
-pyo.plot(fig, filename = "06_exercise.html")
+pyo.plot(fig, filename = "06_boxplot_exercise.html")
