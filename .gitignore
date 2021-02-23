@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# API KEYs
+10_code_along_milestone_project/api_key.txt
