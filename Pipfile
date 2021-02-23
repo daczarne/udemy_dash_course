@@ -9,6 +9,7 @@ pandas = "*"
 plotly = "*"
 dash = "*"
 scipy = "*"
+pandas-datareader = "*"
 
 [dev-packages]
 nbformat = "*"
