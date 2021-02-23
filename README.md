@@ -1,6 +1,6 @@
 # Interactive Python dashboards with Plotly and Dash
 
-![maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)
+![archived](https://img.shields.io/badge/lifecycle-archived-red.svg)
 
 ![github repo size](https://img.shields.io/github/repo-size/daczarne/udemy_dash_course_portilla)
 ![github code size](https://img.shields.io/github/languages/code-size/daczarne/udemy_dash_course_portilla)
