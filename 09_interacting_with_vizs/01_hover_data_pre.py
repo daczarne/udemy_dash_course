@@ -59,7 +59,6 @@ app.layout = html.Div([
   Input(component_id = "wheels-plot", component_property = "hoverData")
 )
 def callback_image(hoverData):
-  hoverData["points"][0]["x"]
   return json.dumps(hoverData, indent = 2)
 
 # Run the app
