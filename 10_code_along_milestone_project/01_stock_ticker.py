@@ -15,7 +15,7 @@ app.layout = html.Div(
       id = "stock_picker",
       values = "TSLA"
     ),
-    gcc.Graph(
+    dcc.Graph(
       id = "graph",
       figure = {
         "data": [
