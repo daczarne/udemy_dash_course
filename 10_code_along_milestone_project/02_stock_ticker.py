@@ -11,9 +11,9 @@ app.layout = html.Div(
   [
     html.H1("Stock Ticker Dashboard"),
     html.H3("Enter a stock symbol"),
-    html.Input(
+    dcc.Input(
       id = "stock-picker",
-      values = "TSLA"
+      value = "TSLA"
     ),
     dcc.Graph(
       id = "graph",
