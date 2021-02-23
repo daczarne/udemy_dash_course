@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "03d16e4f4e02940a0cb66f68fc2c25a49b95d65680123aaf6c9cb566dd61c080"
+            "sha256": "e140aca1b0fa641ce0dc4fb58030c591c3c6d82fb24a14c653d57e65b009b2e3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -68,6 +68,13 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
             "version": "==4.0.0"
         },
+        "chart-studio": {
+            "hashes": [
+                "sha256:a17283b62470306d77060b200f13f9749c807dd15613c113d36f8d057f5c7019",
+                "sha256:fd183185d6e6d31c642567145c1a862f941ca9c7695aac8b2f3ebbcbcea31a7a"
+            ],
+            "version": "==1.1.0"
+        },
         "click": {
             "hashes": [
                 "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a",
@@ -82,6 +89,13 @@
             ],
             "index": "pypi",
             "version": "==1.19.0"
+        },
+        "dash-auth": {
+            "hashes": [
+                "sha256:861006912d2124668da566b4caa3feefbbe2cc72702834a16cc64db7a7ddfbb9"
+            ],
+            "index": "pypi",
+            "version": "==1.4.1"
         },
         "dash-core-components": {
             "hashes": [
@@ -120,6 +134,13 @@
                 "sha256:d93edd8fc02ae74b73c3df10a8e7ee26dee489c65dedce0b3a1d2ce05ac3d1be"
             ],
             "version": "==1.9.0"
+        },
+        "flask-seasurf": {
+            "hashes": [
+                "sha256:10d4946fdd9745a8ae0a38a46c48a9add0cca4896333c0893b3133e3852c2e80",
+                "sha256:505c1101e5489ef3505bb6d6bc722808ed4e6882606e07006d9914c06fb5878c"
+            ],
+            "version": "==0.3.0"
         },
         "future": {
             "hashes": [
@@ -384,6 +405,13 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.15.0"
+        },
+        "ua-parser": {
+            "hashes": [
+                "sha256:46ab2e383c01dbd2ab284991b87d624a26a08f72da4d7d413f5bfab8b9036f8a",
+                "sha256:47b1782ed130d890018d983fac37c2a80799d9e0b9c532e734c67cf70f185033"
+            ],
+            "version": "==0.10.0"
         },
         "urllib3": {
             "hashes": [
