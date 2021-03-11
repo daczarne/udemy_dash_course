@@ -10,11 +10,11 @@ random_y = np.random.randint(1, 101, 100)
 
 # Build a plotly graph
 data = [
-    go.Scatter(
-        x = random_x,
-        y = random_y,
-        mode = "markers"
-    )
+	go.Scatter(
+		x = random_x,
+		y = random_y,
+		mode = "markers"
+	)
 ]
 
 # Save the graph
