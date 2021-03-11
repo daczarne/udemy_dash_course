@@ -131,3 +131,4 @@ dmypy.json
 # API KEYs and Credentials
 10_code_along_milestone_project/api_key.txt
 12_deployment/credentials.csv
+*.pdf
